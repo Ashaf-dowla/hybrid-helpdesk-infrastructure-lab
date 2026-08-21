@@ -4,17 +4,17 @@ Welcome to my premier IT Infrastructure portfolio. This comprehensive, multi-pha
 
 ## 🗺️ Architectural Project Map
 
-### 🔹 [Phase 1: Local On-Premises Domain Architecture](./hybrid-helpdesk-infrastructure-lab/phase-1-local-on-premises-domain/)
+### 🔹 [Phase 1: Local On-Premises Domain Architecture](./phase-1-local-on-premises-domain/)
 Building a localized enterprise corporate network infrastructure from bare hardware up to fully functional client authentication loops.
 * **Part 1:** Windows Server 2025 Base OS Installation & Hardening [Active]
 * **Part 2:** Active Directory Domain Services & Domain Controller Provisioning [Active]
 * **Part 3:** Windows 11 Enterprise Workstation Client Onboarding [Active]
 
-### 🔹 [Phase 2: Cloud-Only Modern Management Platform](./hybrid-helpdesk-infrastructure-lab/phase-2-cloud-only-modern-management/)
+### 🔹 [Phase 2: Cloud-Only Modern Management Platform](./phase-2-cloud-only-modern-management/)
 Bypassing local domain control to practice modern Mobile Device Management (MDM) orchestration.
 * Direct cloud-onboarding of Windows endpoints into **Microsoft Entra ID** and **Microsoft Intune** utilizing an M365 E5 subscription.
 
-### 🔹 [Phase 3: Hybrid Identity Directory Synchronization](./hybrid-helpdesk-infrastructure-lab/phase-3-hybrid-identity-synchronization/)
+### 🔹 [Phase 3: Hybrid Identity Directory Synchronization](./phase-3-hybrid-identity-synchronization/)
 Bridging local datacenters with corporate cloud infrastructures to replicate enterprise corporate environments.
 * Deploying and configuring **Microsoft Entra Connect** to create unified, synchronized user accounts across local environments and cloud networks.
 
@@ -26,4 +26,3 @@ Bridging local datacenters with corporate cloud infrastructures to replicate ent
 * **Endpoint Client OS:** Windows 11 Enterprise Edition
 * **Directory Management (IAM):** Active Directory Users and Computers (ADUC)
 * **Cloud Infrastructure:** Microsoft 365 E5 Developer Suite, Microsoft Entra ID, Microsoft Intune
-# hybrid-helpdesk-infrastructure-lab
