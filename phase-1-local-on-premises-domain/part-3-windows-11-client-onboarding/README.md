@@ -59,11 +59,15 @@ This module covers bypassing Windows 11 virtual hardware restrictions, configuri
 🖼️ ![Domain Onboarding Confirmation Alert Box](screenshot-domain-welcome.png)
 
 ### 5. Validate Domain Authentication Loop
-* Upon workstation reboot initialization, advance past the standard profile lock screen.
-* Click **Other User** located at the bottom-left corner of the authentication layout interface.
-* Input the parameters for the Active Directory identity built during the server configuration phase (e.g., `user1`).
+* Upon workstation reboot initialization, advance past the standard profile lock screen and click **Other User** located at the bottom-left corner of the authentication interface.
+* Input the parameters for the Active Directory identity built during the server configuration phase (`user1`).
 * Verify that the network tracking field running directly underneath the password cell updates to state: **"Sign in to: HOME"**.
-* Execute the login command to generate a centralized network profile on the endpoint, completing the on-premises lab lifecycle.
+
+![Centralized Network Domain Login Screen](screenshot-domain-signin.png)
+
+* Upon executing the login command, verify that the active directory database successfully intercepts the authentication handshake and forces corporate credential updates based on active domain security constraints.
+
+![Active Directory Password Complexity Enforcement](screenshot-password-enforcement.png)
 
 ---
 
